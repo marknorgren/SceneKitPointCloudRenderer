@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4493A61C1ED5BC7A00329952 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493A61B1ED5BC7A00329952 /* AppDelegate.swift */; };
-		4493A61E1ED5BC7A00329952 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4493A61D1ED5BC7A00329952 /* art.scnassets */; };
 		4493A6201ED5BC7A00329952 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4493A61F1ED5BC7A00329952 /* GameViewController.swift */; };
 		4493A6231ED5BC7A00329952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4493A6211ED5BC7A00329952 /* Main.storyboard */; };
 		4493A6251ED5BC7A00329952 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4493A6241ED5BC7A00329952 /* Assets.xcassets */; };
@@ -41,7 +40,6 @@
 /* Begin PBXFileReference section */
 		4493A6181ED5BC7A00329952 /* PCRenderer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCRenderer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4493A61B1ED5BC7A00329952 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4493A61D1ED5BC7A00329952 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		4493A61F1ED5BC7A00329952 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		4493A6221ED5BC7A00329952 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4493A6241ED5BC7A00329952 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 				4493A64B1ED5BE2A00329952 /* PointCloud.swift */,
 				4493A64C1ED5BE2A00329952 /* PointCloudVertex.swift */,
 				4493A61B1ED5BC7A00329952 /* AppDelegate.swift */,
-				4493A61D1ED5BC7A00329952 /* art.scnassets */,
 				4493A61F1ED5BC7A00329952 /* GameViewController.swift */,
 				4493A6211ED5BC7A00329952 /* Main.storyboard */,
 				4493A6241ED5BC7A00329952 /* Assets.xcassets */,
@@ -238,6 +235,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -258,7 +256,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4493A61E1ED5BC7A00329952 /* art.scnassets in Resources */,
 				4493A6281ED5BC7A00329952 /* LaunchScreen.storyboard in Resources */,
 				4493A6531ED5BE8100329952 /* dragon_hidden.ply.txt in Resources */,
 				4493A6521ED5BE8100329952 /* bun_zipper_points.ply.txt in Resources */,
@@ -451,7 +448,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.epfl.mmspg.PCRenderer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -465,7 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.epfl.mmspg.PCRenderer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
